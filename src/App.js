@@ -33,7 +33,7 @@ class App extends Component {
       }, 3000);
       return (
         <Router>
-          <Route path='/' exact component={Loading} />
+          <Route path='/portfolio' exact component={Loading} />
         </Router>
       );
     }
@@ -44,7 +44,7 @@ class App extends Component {
           <div>
             <PersonalNav />
             <Switch>
-              <Route path='/' exact component={Landing} />
+              <Route path='/portfolio' exact component={Landing} />
               <Route path='/contact' component={Contact} />
               <Route path='/projects/TA' component={TA} />
               <Route path='/projects/EY' component={EY} />
