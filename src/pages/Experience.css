@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.projects {
+  height: auto;
+  width: 100%;
+  background: #1d2531;
+}
+
+.headingBlock h1 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 50px;
+  margin-bottom: -1.5%;
+  text-transform: uppercase;
+}
+
+.project {
+  position: relative;
+  max-width: 500px;
+  max-height: 700px;
+}
+
+.projects img {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.lead {
+  letter-spacing: 0.2rem;
+}
+
+.project:hover .pImg {
+  cursor: pointer;
+  filter: brightness(0.3);
+  transition: 0.5s all;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.learn {
+  display: none;
+}
+
+.project:hover .learn {
+  display: block;
+  transition: 0.5s all;
+  display: flex;
+  flex-direction: row;
+}
+
+.rightArrow {
+  font-size: 30px;
+  animation: blinker 1s linear infinite;
+}
+
+.content h4 {
+  font-family: 'Roboto', Sans Serif;
+  font-size: 2.2rem;
+  margin-bottom: -1.5%;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 992px) {
+  .content h4 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.projects {
+  height: auto;
+  width: 100%;
+  background: #1d2531;
+}
+
+.headingBlock h1 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 50px;
+  margin-bottom: -1.5%;
+  text-transform: uppercase;
+}
+
+.proj {
+  position: relative;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.context {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.context p {
+  font-size: 1rem;
+}
+
+.context h4 {
+  font-size: 2rem;
+}
+
+.proj:hover {
+  cursor: pointer;
+}
+
+.learn {
+  display: none;
+}
+
+.proj:hover .pImg {
+  cursor: pointer;
+  filter: brightness(0.3);
+  transition: 0.5s all;
+}
+
+.proj:hover .learn {
+  display: block;
+  transition: 0.5s all;
+  display: flex;
+  flex-direction: row;
+}
+
+.rightArrow {
+  font-size: 25px;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 992px) {
+  .context h4 {
+    font-size: 1.5rem;
+  }
+}
