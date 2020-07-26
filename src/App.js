@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import Landing from './pages/Landing';
 import PersonalNav from './pages/Nav';
 import Contact from './pages/Contact';
@@ -33,7 +33,7 @@ class App extends Component {
       }, 3000);
       return (
         <Router>
-          <Route path='/portfolio' exact component={Loading} />
+          <Route path='/portfolio/#' exact component={Loading} />
         </Router>
       );
     }
@@ -44,7 +44,7 @@ class App extends Component {
           <div>
             <PersonalNav />
             <Switch>
-              <Route path='/portfolio' exact component={Landing} />
+              <Route path='/portfolio/#' exact component={Landing} />
               <Route path='/contact' component={Contact} />
               <Route path='/projects/TA' component={TA} />
               <Route path='/projects/EY' component={EY} />
