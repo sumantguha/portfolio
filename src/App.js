@@ -32,19 +32,19 @@ class App extends Component {
         this.setState({loaded: true});
       }, 3000);
       return (
-        <Router>
-          <Route path='/portfolio/#' exact component={Loading} />
+        <Router basename='/'>
+          <Route path='/' exact component={Loading} />
         </Router>
       );
     }
 
     return (
-      <Router>
+      <Router basename='/'>
         <div className='App'>
           <div>
             <PersonalNav />
             <Switch>
-              <Route path='/portfolio/#' exact component={Landing} />
+              <Route path='/' exact component={Landing} />
               <Route path='/contact' component={Contact} />
               <Route path='/projects/TA' component={TA} />
               <Route path='/projects/EY' component={EY} />
