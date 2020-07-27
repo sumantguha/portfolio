@@ -19,7 +19,7 @@ export default class PersonalNav extends Component {
           </BrowserRouter>
         </Navbar.Brand>
         <Nav className='nav'>
-          <a href='/portfolio/#' className='link'>
+          <a href='/portfolio/#' className='link mr-5'>
             Home
           </a>
           <a href='/portfolio/#/contact' className='link ml-5'>
