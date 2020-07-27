@@ -22,7 +22,7 @@ export default class PersonalNav extends Component {
           <a href='/portfolio/#' className='link'>
             Home
           </a>
-          <a href='/portfolio/#/contact' className='link'>
+          <a href='/portfolio/#/contact' className='link ml-5'>
             Contact
           </a>
         </Nav>
