@@ -7,6 +7,10 @@
   letter-spacing: 0.2rem;
 }
 
+.link {
+  margin-right: 2%;
+}
+
 .main {
   top: 5vh;
   z-index: 5;
