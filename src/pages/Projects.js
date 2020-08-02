@@ -37,7 +37,7 @@ export default class Projects extends React.Component {
               </a>
             </Col>
             <Col xs={12} s={6} md={6} lg={6} xl={6} className='mt-5'>
-              <a href='https://github.com/sumantguha/Webapps'>
+              <a href='../../public/assets/nift_web_apps.pdf'>
                 <div className='proj'>
                   <img
                     className='pImg'
