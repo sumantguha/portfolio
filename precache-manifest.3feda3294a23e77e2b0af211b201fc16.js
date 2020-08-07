@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dac8fd3fd71e10f8741a7f8a2655e774",
+    "revision": "7cd6e1b1957f03761dfc3d59fa360c1b",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.37620a9f.chunk.css"
   },
   {
-    "revision": "748e166cb058e39832bc",
+    "revision": "800ef5b688284b87aac2",
     "url": "/portfolio/static/css/main.d635fdeb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.866743fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "748e166cb058e39832bc",
-    "url": "/portfolio/static/js/main.8e913cf9.chunk.js"
+    "revision": "800ef5b688284b87aac2",
+    "url": "/portfolio/static/js/main.6280478d.chunk.js"
   },
   {
     "revision": "309a9e55c61ba5bff665",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/ml.00ea62c3.svg"
   },
   {
-    "revision": "4c57a316ff101b18c4223f8d11e8ae20",
-    "url": "/portfolio/static/media/nifty_web_apps.4c57a316.pdf"
+    "revision": "c9f87c0a3808e7ce50554ba81ba5e5b8",
+    "url": "/portfolio/static/media/nifty_web_apps.c9f87c0a.pdf"
   },
   {
     "revision": "0f11e3c930e40d2012d2fdfa909980cc",
